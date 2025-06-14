@@ -1,7 +1,30 @@
+# Python
 __pycache__/
-*.pyc
-.env
-.venv/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
 venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment
+.env
+.env.local
+
+# Storage files
+saved_requests.json
+request_history.json
 *.log
-requests.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
